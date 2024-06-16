@@ -1,0 +1,43 @@
+*{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto; 
+    color: white;
+}
+  
+.body{
+    background-color: black;
+    /* background-image: url(How-to-Get-a-Job-Where-You-Used-to-Work.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100svh; */
+}
+
+.box-login{
+    min-width: 360px;
+    max-width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.backdrop-filter{
+    backdrop-filter: blur(10px);
+}
+
+.img-login{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transform: scale(1.9);
+}
+
+@media (max-width: 765.98px) { 
+    .img-login{ 
+        transform: scale(40%);
+    }
+    .min-margin{
+        margin-bottom: -60px;
+    }
+ }

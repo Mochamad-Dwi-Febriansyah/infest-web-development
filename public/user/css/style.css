@@ -1,0 +1,151 @@
+
+*{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto; 
+}
+
+
+.heroes-content{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+
+.heroes-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .mines30{
+    margin-top: -30px;
+} */
+
+.search-input{ 
+    height: 60px;
+} 
+.search-ai{ 
+    width: 100%;
+    min-height: 100px;
+} 
+.search-ai-btn, .search-btn{
+    width: 70px;
+}
+.search-ai-btn img{
+    width: 100%;
+    transform: rotate(90deg);
+}
+.rotate-180{
+    transform: rotate(180deg);
+}
+.search-btn img{
+    width: 100%;
+}
+.search-input-prompt{
+    height: 90px; 
+} 
+.search-input:focus{
+    border: none;
+}
+  
+.box-image-p{
+    width: 75px;
+    height: 75px;
+}
+
+.round{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .mines100{
+    margin-top: -100px;
+} */
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.icon{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    object-fit: cover;
+}
+.icon20{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+.logo-mitra{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.multiline-ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Jumlah baris yang ditampilkan */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.search-btn-mini-30{
+    width: 30px;
+    height: 30px;
+
+}
+.search-btn-mini-30 .img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.input-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer{
+    background-color: black;
+}
+
+.hidden-div {
+    display: none;
+}
+.active-div {
+    display: block;
+}
+.list-group-item {
+    cursor: pointer;
+}
+
+@media (max-width: 999.98px) { 
+    .box-image-p{
+        width: 75px;
+        height: 75px;
+    }
+
+ }
+@media (max-width: 767.98px) { 
+    #filter-box{
+        display: none;
+    }
+
+ }
+/* 
+ textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+    box-sizing: border-box;
+} */
